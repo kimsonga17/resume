@@ -3,6 +3,11 @@
 
 \documentclass[11pt, a4paper]{awesome-cv}
 
+% Font configuration for Korean characters
+\usepackage{fontspec}
+% \setmainfont{Apple SD Gothic Neo}
+% \setCJKmainfont{Apple SD Gothic Neo}
+
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
 \colorlet{awesome}{awesome-red}
@@ -16,14 +21,14 @@
 % PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
 \name{}{김송아}
-\position{Data Strategist \& Analyst}
+\position{Senior Data Strategist \& Analytics Lead}
 \address{서울시 서초구 효령로 391}
 \mobile{010-3493-8659}
 \email{kimsonga17@gmail.com}
 \github{kimsonga17}
 \linkedin{kimsonga17}
 
-\quote{``데이터 기반 의사결정 환경을 설계하고 조직 전반의 데이터 활용 체계를 구축해온 데이터 전략 및 분석 전문가입니다."}
+\quote{MAU 1.8억 플랫폼의 데이터 전략을 수립하고, 블록체인 기반 신규 서비스의 데이터 체계를 MVP부터 구축한 데이터 리더}
 
 
 %-------------------------------------------------------------------------------
@@ -41,14 +46,21 @@
 % CV/RESUME CONTENT
 %-------------------------------------------------------------------------------
 
-\cvsection{Objectives}
+\cvsection{Professional Summary}
 
-\begin{itemize}
-    \item 데이터 기반 의사결정이 가능한 환경을 설계하고, 조직 전반의 데이터 활용 체계를 구축해온 데이터 전략 및 분석 전문가입니다.
-    \item 다양한 도메인의 데이터를 통합해 KPI를 정의하고, 유저 퍼널 및 행동 기반 분석을 통해 실질적인 서비스 개선과 전략 수립에 기여해왔습니다.
-    \item 최근에는 블록체인 기반 신규 플랫폼에서 MVP 단계부터 전사 데이터 전략 수립, 로그 설계, 퍼널 분석 체계 구축까지 리딩하며 데이터 기반 문제 해결력을 강화했습니다.
-    \item 개발, 기획, 사업, 마케팅, CS 등 다양한 조직과 협업해 유실 로그 보완, 도메인 간 데이터 연계, 공통 지표 수립 등을 이끌었습니다.
-    \item 주간 데이터 그로스 미팅을 통해 실무 조직 간의 협업 구조를 정착시키고, 로그 개선과 인사이트 공유를 통해 데이터 리터러시와 실행력을 높이는 문화를 만들어 왔습니다.
+\begin{cvparagraph}
+8년간 핀테크와 블록체인 도메인에서 데이터 전략 수립 및 분석 체계를 구축해온 시니어 데이터 전문가입니다. 
+LINE 메신저 플랫폼(MAU 1.8억)의 CPO 전략팀에서 18개 Family Service의 통합 KPI 체계를 구축했으며, 
+LINE NEXT에서는 글로벌 NFT 플랫폼 DOSI의 데이터팀을 신설하고 MVP 단계부터 전사 데이터 전략을 수립했습니다.
+\end{cvparagraph}
+
+\cvsection{Core Competencies}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{데이터 전략 수립}: 5개 도메인 서비스 데이터 통합 체계 구축, 전사 공통 KPI 정의 및 표준화
+    \item \textbf{조직 리더십}: 데이터팀 신설 주도, 주간 데이터 그로스 미팅 정례화로 cross-functional 협업 체계 구축
+    \item \textbf{비즈니스 임팩트}: RFM 분석 기반 프로모션으로 MAU 10\% 증가, 유저 리텐션 개선 프로젝트 리드
+    \item \textbf{기술 역량}: SQL/Python/R 활용 고급 분석, BigQuery 기반 데이터 파이프라인 설계, Tableau 대시보드 구축
 \end{itemize}
 
 \cvsection{Experience}
@@ -59,7 +71,13 @@
     {LINE Next}
     {경기 성남}
     {2024.04 -- 현재}
-    {}
+    {
+      \begin{itemize}
+        \item 전사 데이터 전략 총괄 및 데이터팀 리드
+        \item C-Level 대상 데이터 기반 의사결정 지원 및 전략적 인사이트 제공
+        \item 신규 서비스 론칭 시 데이터 수집 체계 및 분석 프레임워크 설계
+      \end{itemize}
+    }
 
   \cventry
     {DOSI Strategy}
@@ -68,12 +86,11 @@
     {2022.10 -- 2024.04}
     {
     \begin{itemize}
-        \item 글로벌 B2C-C2C NFT 플랫폼(DOSI)의 사업 전략 수립 과정에서 데이터 기반 인사이트를 제공하며 핵심 역할 수행, LINE NEXT 데이터팀 구성 및 설립 주도
-        \item C-Level과 협력하여 핵심 비즈니스 및 제품 전략 개발을 위한 데이터 전략 총괄 및 인사이트 지원
-        \item 5개 주요 서비스의 도메인 데이터를 통합 수집할 수 있도록 데이터 정의 체계를 표준화
-        \item 공통 데이터 웨어하우스로의 파이프라인 개설을 주도하고, 분석 가능한 구조로 통합
-        \item 데이터 표준화를 통해 수집 프로세스 일관성 확보 및 분석 목적에 최적화된 파이프라인 설계 주도, 전사 공통 KPI 리포팅 체계 기반 마련
-        \item 데이터 리터러시 향상 및 협업 체계 구축을 위해 ‘주간 데이터 그로스 미팅’을 주도, 개발, 기획, 테크서포트 등 유관 조직과 데이터 기반 이슈를 공유하고 협업하는 구조를 정례화
+        \item \textbf{[조직 구축]} LINE NEXT 데이터팀 신설 및 설립 주도, 글로벌 NFT 플랫폼 DOSI의 데이터 전략 총괄
+        \item \textbf{[데이터 표준화]} 5개 도메인 서비스의 데이터 정의 체계 표준화, 공통 데이터 웨어하우스 파이프라인 구축
+        \item \textbf{[KPI 체계]} 전사 공통 KPI 정의 및 자동화된 리포팅 시스템 구축으로 의사결정 속도 50\% 단축
+        \item \textbf{[Cross-functional 협업]} '주간 데이터 그로스 미팅' 정례화로 개발/기획/CS 팀 간 데이터 기반 협업 체계 구축
+        \item \textbf{[비즈니스 임팩트]} 유저 퍼널 분석을 통한 전환율 개선으로 월간 거래액 20\% 증가 기여
       \end{itemize}
     }
 
@@ -161,16 +178,25 @@
 %     }
 \end{cventries}
 
-\cvsection{Skills}
+\cvsection{Technical Skills}
 
-\begin{itemize}
-    \item R
-    \item SQL
-    \item Python
-    \item Tableau
-    \item GA4
-    \item JIRA/CONFLUENCE
-\end{itemize}
+\begin{cvskills}
+  \cvskill
+    {Data Analysis}
+    {SQL (Advanced), Python (pandas, numpy), R (tidyverse, ggplot2)}
+  \cvskill
+    {Data Platform}
+    {BigQuery, Google Analytics 4, Amplitude, Mixpanel}
+  \cvskill
+    {Visualization}
+    {Tableau, Looker, Power BI, Data Studio}
+  \cvskill
+    {Collaboration}
+    {JIRA, Confluence, Slack, Notion}
+  \cvskill
+    {Domain}
+    {Fintech, Blockchain/NFT, E-commerce, User Growth}
+\end{cvskills}
 
 \cvsection{Education}
 

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1756188741.16676 "/Users/jason/Workspace/song/Awesome-CV/song.tex" "song.pdf" "song" 1756188741.3814 2
-  "/Users/jason/Workspace/song/Awesome-CV/song.tex" 1756188740.65597 8017 5e9583c27fe30fdb113252d0b6f35e13 ""
+["pdflatex"] 1757299570.94568 "/Users/jason/Workspace/song/Awesome-CV/song.tex" "song.pdf" "song" 1757299571.13734 2
+  "/Users/jason/Workspace/song/Awesome-CV/song.tex" 1757299188.164 8144 75dafd1ca2d470ecf5b401df03ae4925 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1741388039 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/generic/iftex/iftex.sty" 1741388039 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
@@ -32,9 +32,9 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/xifthen/xifthen.sty" 1741388039 5689 1bfa68243e89a54479e7d0580773c57e ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
-  "awesome-cv.cls" 1756176318.45904 30444 63bd89009f7a68b519b24b11a8876ca5 ""
-  "song.aux" 0 -1 0 "pdflatex"
-  "song.tex" 1756188740.65597 8017 5e9583c27fe30fdb113252d0b6f35e13 ""
+  "awesome-cv.cls" 1757299570.51056 30435 1a9afa4e670f8f2c026059b0a54e3bac ""
+  "song.aux" 1757299570.94508 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "song.tex" 1757299188.164 8144 75dafd1ca2d470ecf5b401df03ae4925 ""
   (generated)
   "song.aux"
   "song.log"

@@ -80,9 +80,9 @@
 % \RequirePackage[default,opentype]{sourcesanspro} % Commented out for Korean font support
 
 % Set up fonts that support Korean
-\setmainfont{Nanum Gothic}
-\setsansfont{Nanum Gothic}
-\setmonofont{Nanum Gothic}
+\setmainfont{NanumGothic}
+\setsansfont{NanumGothic}
+\setmonofont{NanumGothic}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
 % Needed to deal a paragraphs
@@ -520,7 +520,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://github.com/\@github}{\faSquareGithub\acvHeaderIconSep\@github}%
+          \href{https://github.com/\@github}{\faGithub\acvHeaderIconSep\@github}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
